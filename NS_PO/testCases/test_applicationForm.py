@@ -18,7 +18,7 @@ class TestApplicationForm:
             function：每个函数或方法都会调用
             class：每个类只调用1次
             module：每个模块只调用1次
-            session：多个模块调用1次，通常写在conftest【文件名写死，必须这么写】中
+            session：多个模块调用1次，通常写在conftest【文件名写死，必须这么写】中aaaa
     """
     @pytest.fixture(scope='function', autouse=True)
     def login_success(self):
